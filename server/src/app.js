@@ -32,7 +32,7 @@ const limiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 100, message: 'Too ma
 app.use('/api', limiter);
 
 // Logging & parsing
-if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
+app.use(morgan('dev'));
 app.use(express.json({ limit: '10kb' }));
 
 // Swagger docs
