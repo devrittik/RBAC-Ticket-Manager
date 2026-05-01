@@ -35,8 +35,11 @@ It supports:
 - Manage user roles
 - View audit logs
 
-### Live Link
+### Live Client URL
 https://rbac-ticket-manager.vercel.app/
+
+### Live Server URL
+https://rbac-ticket-manager.onrender.com/
 
 ### Swagger Docs
 https://rbac-ticket-manager.onrender.com/api-docs/
