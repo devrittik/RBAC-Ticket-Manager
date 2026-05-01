@@ -94,7 +94,7 @@ NODE_ENV=development
 Create `client/.env` from `client/.env.example`.
 
 ```env
-SERVER_URL=http://localhost:5000
+REACT_APP_SERVER_URL=http://localhost:5000
 ```
 
 ## Local Setup
