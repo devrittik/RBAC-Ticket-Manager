@@ -1,0 +1,70 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Env files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+.next/
+out/
+coverage/
+
+# =========================
+# Vite / React
+# =========================
+apps/web/dist/
+apps/web/.vite/
+
+# =========================
+# Backend build (TS)
+# =========================
+apps/api/dist/
+
+# =========================
+# Prisma
+# =========================
+apps/api/prisma/dev.db
+apps/api/prisma/*.db-journal
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.pem
+*.key
