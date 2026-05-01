@@ -35,6 +35,12 @@ It supports:
 - Manage user roles
 - View audit logs
 
+### Live Link
+https://rbac-ticket-manager.vercel.app/
+
+### Swagger Docs
+https://rbac-ticket-manager.onrender.com/api-docs/
+
 ## Project Structure
 
 ```text
@@ -231,3 +237,7 @@ npm run seed
 npm start
 npm run build
 ```
+
+## Author
+
+Rittik Chakraborty
